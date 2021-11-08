@@ -1,0 +1,11 @@
+.text-center {
+    text-align: center;
+    color: #673ab7;
+    background: blanchedalmond;
+    padding: 1rem;
+}
+
+
+.d-flex {
+    display: flex;
+}

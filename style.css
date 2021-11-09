@@ -1,4 +1,4 @@
-.text-center {
+/*.text-center {
     text-align: center;
     color: #673ab7;
     background: blanchedalmond;
@@ -8,4 +8,84 @@
 
 .d-flex {
     display: flex;
+}*/
+body {
+  font: 16px arial;
+  margin: 0;
+  padding: 0;
+  background: #d1d1d1;
 }
+
+#wrapper {
+  width: 1000px;
+  margin: 50px auto 0;
+  background-color: #fff;
+}
+
+#header {
+  text-align: center;
+  background-color: #6bb9cc;
+  padding: 10px;
+}
+
+#header h1 {
+  color: #fff;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+#menu {
+  background-color: blanchedalmond;
+  
+}
+#menu ul {
+  font-size: 0;
+  padding: 0 10px;
+  margin: 0;
+  list-style: none;
+  
+}
+#menu ul li {
+  display: inline-block;
+}
+#menu ul li a {
+  color: rgb(10, 10, 10);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 10px;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+#menu ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.349);
+}
+
+
+#showcase{
+  background-image:url('download.jpeg');
+  background-position:left;
+  min-height:310px;
+  width: 300px;
+  border-radius : 320px;
+  border-width: 5px;
+  margin-bottom:30px;
+  text-align: left;
+}
+
+#sidebar{
+  float:right;
+  width:30%;
+  background: rgb(114, 202, 236);
+  color:#fff;
+  padding:10px;
+  box-sizing: border-box;
+  border-radius: 300px;
+  width: 450px;
+
+}
+
